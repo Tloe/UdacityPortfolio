@@ -94,6 +94,10 @@ header, nav, footer, section, article, div {
     color: #2d3c49;
 }
 
+.work_link {
+    font-size: 0.8em;
+}
+
 .work_image {
 
 }
