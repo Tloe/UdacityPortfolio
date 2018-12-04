@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Fira Mono', monospace;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+nav a, button {
+    display: inline-block;
+    min-width: 48px;
+    min-height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+
+    font-size: 2em;
+    border-bottom: 5px solid #7d97ad;
+
+}
+
+.header_text {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2d3c49;
+}
+
+.header_image {
+    width: auto;
+    height: 150px;
+}
+
+.header_title {
+    font-size: 1em;
+}
+
+.header_subtitle {
+    font-size: 0.5em;
+}
+
+.main_greeting {
+   padding: 10px;
+   min-height: 200px;
+   font-size: 12px;
+}
+
+.work {
+    padding: 10px;
+}
+
+.work_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.featured_header {
+    color: #7d97ad;
+}
+
+.work_item {
+    text-align: center;
+    color: #2d3c49;
+    padding: 15px;
+    max-width: 300px;
+}
+
+.work_item a {
+    text-decoration: none;
+    color: #2d3c49;
+}
+
+.work_image {
+
+}
+
